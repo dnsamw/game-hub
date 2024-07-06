@@ -13,6 +13,7 @@ export interface Game {
     name:string
     background_image:string;
     parent_platforms:{platform:Platform}[] //due to the design smell in rawg api
+    metacritic:number;
 }
 
 interface FetchGamesResponse {
